@@ -7,7 +7,7 @@ Este repositorio contiene un script de Unity que busca y registra todos los obje
 
 ## Ejecución
 
-![Demo](ANIMATED_GIF_URL)
+![Demo](/presentation.gif)
 
 ## Cómo usar
 
@@ -29,7 +29,7 @@ This repository contains a Unity script that searches for and registers all obje
 
 ## Execution
 
-![Demo](ANIMATED_GIF_URL)
+![Demo](/presentation.gif)
 
 ## How to use
 
