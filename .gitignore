@@ -9,7 +9,13 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+/Practica2/[Ll]ibrary/
+/Practica2/[Tt]emp/
+/Practica2/[Oo]bj/
+/Practica2/[Bb]uild/
+/Practica2/[Bb]uilds/
+/Practica2/[Ll]ogs/
+/Practica2/[Uu]ser[Ss]ettings/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
