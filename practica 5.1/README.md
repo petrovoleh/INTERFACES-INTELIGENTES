@@ -1,1 +1,0 @@
-Práctica Realidad Aumentada

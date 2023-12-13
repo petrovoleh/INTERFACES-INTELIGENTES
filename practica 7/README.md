@@ -1,1 +1,1 @@
-Sensores
+Micrófono y cámara

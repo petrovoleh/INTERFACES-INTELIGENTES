@@ -1,1 +1,1 @@
-Micrófono y cámara
+Práctica Realidad Aumentada
