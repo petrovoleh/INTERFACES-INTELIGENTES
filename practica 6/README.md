@@ -1,6 +1,6 @@
 # Práctica 6 - Práctica Realidad Aumentada
 
-Crea una escena de realidad aumentada que reconozca una imagen y muestre una araña sobre ella. Se ha creado un evento que hace girar al zombi cuando aparece.
+Crea una escena de realidad aumentada que reconozca una imagen y muestre una araña sobre ella. Crea un evento que gire al zombi cuando aparezca.
 
 ## Ejercicio
 
