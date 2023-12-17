@@ -7,6 +7,9 @@ A continuación encontrará imágenes gif que muestran cómo se realizan los eje
 
 ![Ejercicio](presentation.gif)
 
+## Ejercicio 2
+
+![Ejercicio](presentation2.gif)
 
 # Voice Recognition
 The purpose of this practice is to learn how to use voice recognition in a unit and make a scene where the spider will execute voice commands.
@@ -16,3 +19,7 @@ Below are gif images that show how the exercises are performed.
 ## Exercise 1
 
 ![Exercise](presentation.gif)
+
+## Exercise 2
+
+![Exercise](presentation2.gif)
