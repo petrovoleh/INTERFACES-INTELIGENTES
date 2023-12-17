@@ -11,7 +11,7 @@ A continuación se muestra una imagen gif que muestra cómo realizar el primer y
 # Sensors
 The objective of this practice is to make the samurai always point north with his sword, and the program displays the information obtained from the sensors.
 
-Below is a gif image showing how to perform the first and second exercises.
+Below is a gif image showing how the first and second exercises are performed.
 
 ## Exercise
 
