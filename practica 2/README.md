@@ -38,7 +38,7 @@ Implementación:
 El proyecto fue implementado en Unity usando scripts en C#. Cada tarea se abordó creando y adjuntando los scripts pertinentes a los objetos de juego apropiados. Se utilizaron variables públicas para permitir la personalización de los parámetros en el Inspector de Unity.
 ## Ejecución
 
-![Demo](/presentation.gif)
+![Execution](presentation.gif)
 
 ## Resultados
 
@@ -94,7 +94,7 @@ Implementation:
 The project was implemented in Unity using C# scripts. Each task was addressed by creating and attaching the relevant scripts to the appropriate game objects. Public variables were used to allow customization of parameters in the Unity Inspector.
 ## Execution
 
-![Demo](/presentation.gif)
+![Execution](presentation.gif)
 ## Results
 
 The project successfully accomplished the following:
