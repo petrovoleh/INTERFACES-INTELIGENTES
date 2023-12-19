@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CubeCollision2 : MonoBehaviour
 {
+    private Rigidbody rb;
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Cylinder"))
@@ -19,10 +20,16 @@ public class CubeCollision2 : MonoBehaviour
             GameObject[] spheresOfType2 = GameObject.FindGameObjectsWithTag("SphereGroup2");
             foreach (GameObject sphere in spheresOfType2)
             {
+                 
+
+                rb = sphere.GetComponent<Rigidbody>();
                 // Move spheres of the second type towards the cylinder
-                Vector3 directionToCylinder = other.transform.position - sphere.transform.position;
                 float speed = 2.0f; // Adjust the speed as needed
-                sphere.transform.Translate(directionToCylinder.normalized * speed * Time.deltaTime);
+                Vector3 directionToCylinder = other.transform.position - sphere.transform.position;
+                Vector3 movement = directionToCylinder.normalized * speed * Time.deltaTime;
+
+                // Move the Rigidbody instead of the Transform
+                rb.MovePosition(rb.position + movement);
             }
         }
     }

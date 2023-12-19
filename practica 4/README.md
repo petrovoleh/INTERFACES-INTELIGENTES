@@ -51,4 +51,18 @@ This project involves the development of a Unity game with various mechanics and
 ## Conclusion
 
 The Unity Game Development Project has achieved its objectives by successfully implementing the desired mechanics and features. The project demonstrates the team's ability to create an engaging and interactive game within the Unity game engine.
+## Ejercicio 1
 
+![Ejercicio](task1.gif)
+
+## Ejercicio 2
+
+![Ejercicio](task2.gif)
+
+## Ejercicio 3
+
+![Ejercicio](task3.gif)
+
+## Ejercicio 4,5,6
+
+![Ejercicio](task4-5-6.gif)

@@ -11,10 +11,12 @@ public class ScoreManager : MonoBehaviour
         if (other.CompareTag("SphereGroup1"))
         {
             score += 5;
+            Destroy(other.gameObject);
         }
         else if (other.CompareTag("SphereGroup2"))
         {
             score += 10;
+            Destroy(other.gameObject);
         }
 
         Debug.Log("Score: " + score);
