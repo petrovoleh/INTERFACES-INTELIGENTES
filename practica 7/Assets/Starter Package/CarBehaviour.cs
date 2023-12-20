@@ -16,7 +16,7 @@
 
 using System.Collections;
 using UnityEngine;
-
+using TMPro;
 /**
  * Our car will track a reticle and collide with a <see cref="PackageBehaviour"/>.
  */
@@ -24,6 +24,15 @@ public class CarBehaviour : MonoBehaviour
 {
     public ReticleBehaviour Reticle;
     public float Speed = 1.2f;
+    private TextMeshProUGUI pointsText;
+
+    private int points;
+
+    private void Start () {
+        pointsText = GameObject.Find("Points").GetComponent<TextMeshProUGUI>();
+        pointsText.text = "Points: 0";
+        points = 0;
+    }
 
     private void Update()
     {
@@ -45,6 +54,8 @@ public class CarBehaviour : MonoBehaviour
         var Package = other.GetComponent<PackageBehaviour>();
         if (Package != null)
         {
+        points++;
+            pointsText.text = "Points: " + points.ToString();
             Destroy(other.gameObject);
         }
     }
