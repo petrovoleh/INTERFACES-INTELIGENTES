@@ -24,7 +24,7 @@ public class CubeCollision : MonoBehaviour
             foreach (GameObject sphereObject in sphereObjects)
                 {
                     
-                     Vector3 directionToCylinder = cylinders[1].transform.position - sphereObject.transform.position;
+                Vector3 directionToCylinder = cylinders[0].transform.position - sphereObject.transform.position;
                 float speed = 2.0f; // Adjust the speed as needed
                 sphereObject.transform.Translate(directionToCylinder.normalized * speed * Time.deltaTime);
           } }

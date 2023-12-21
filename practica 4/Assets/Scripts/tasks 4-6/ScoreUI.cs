@@ -7,6 +7,6 @@ public class ScoreUI : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + ScoreManager.score.ToString();
+        scoreText.text = "Score: " + ScoreManager2.score.ToString();
     }
 }
